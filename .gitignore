@@ -1,0 +1,22 @@
+# Build outputs, third-party APKs and locally held dependencies
+artifacts/
+vendor/
+archive/
+secrets/
+docs/history/
+tools/**/*.jar
+tools/**/*.zip
+tools/jadx/
+__pycache__/
+*.py[cod]
+*.class
+*.apk
+*.idsig
+*.p12
+*.jks
+*.keystore
+.venv/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
